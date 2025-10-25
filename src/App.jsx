@@ -4,6 +4,7 @@ import './App.css'
 import RootLayout from './components/layouts/RootLayout'
 import Home from './components/pages/Home'
 
+
 function App() {
 
 
@@ -12,6 +13,7 @@ function App() {
     <Routes>
       <Route path='/' element={<RootLayout/>}>
       <Route index element={<Home/>}/>
+      
       </Route>
     </Routes>
     </>
