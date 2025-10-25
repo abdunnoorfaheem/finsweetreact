@@ -5,6 +5,7 @@ import Home from './components/pages/Home'
 import Pricing from './components/pages/Pricing'
 import Features from './components/pages/Features'
 
+
 function App() {
   return (
     <>
