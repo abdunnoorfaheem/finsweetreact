@@ -8,6 +8,7 @@ import { About } from './components/pages/About'
 import Work from './components/mehedi/Work'
 import ReadCase from './components/pages/ReadCase'
 import ReadBlog from './components/pages/ReadBlog'
+import Blog from './components/pages/Blog'
 
 
 
@@ -23,6 +24,7 @@ function App() {
           <Route path='/work' element={<Work/>} />
           <Route path='/read' element={<ReadCase/>} />
           <Route path='/readblog' element={<ReadBlog/>} />
+          <Route path='/blog' element={<Blog/>} />
         </Route>
       </Routes>
     </>
