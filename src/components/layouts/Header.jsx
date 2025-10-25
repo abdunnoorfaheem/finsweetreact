@@ -36,13 +36,14 @@ const Header = () => {
 
               {/* Desktop Button */}
               <div className="hidden md:flex">
-                <Button
+                <Link to={"/contactus"}><Button
                   className="py-3 px-10 border border-[rgba(244,246,252,0.2)] hover:bg-white hover:text-quaternary transition"
                   text="Contact us"
-                />
+                /></Link>
               </div>
 
               {/* Mobile Menu Toggle */}
+              <Link to={"/contactus"}>
               <button
                 className="md:hidden"
                 onClick={() => setToggle(!toggle)}
@@ -50,6 +51,7 @@ const Header = () => {
               >
                 {toggle ? <ImCross size={26} /> : <FaBars size={26} />}
               </button>
+              </Link>
             </Flex>
           </Container>
         </nav>

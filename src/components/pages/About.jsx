@@ -257,7 +257,7 @@ export const About = () => {
           </Container>
         </section>
         {/* five part end */}
-        
+
         {/* six part start */}
         <section className='bg-[#F4F6FC]'>
           <Container>
