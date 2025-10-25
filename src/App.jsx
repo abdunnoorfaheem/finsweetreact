@@ -7,6 +7,7 @@ import Features from './components/pages/Features'
 import { About } from './components/pages/About'
 import Work from './components/mehedi/Work'
 import ReadCase from './components/pages/ReadCase'
+import ReadBlog from './components/pages/ReadBlog'
 
 
 
@@ -21,6 +22,7 @@ function App() {
           <Route path='/about' element={<About/>} />
           <Route path='/work' element={<Work/>} />
           <Route path='/read' element={<ReadCase/>} />
+          <Route path='/readblog' element={<ReadBlog/>} />
         </Route>
       </Routes>
     </>
