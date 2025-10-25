@@ -18,10 +18,6 @@ function App() {
       <Route index element={<Home/>}/>
       </Route>
     </Routes>
-      <Clients/>
-      <Faq/>
-      <Form/>
-      <Blog/>
     </>
   )
 }
