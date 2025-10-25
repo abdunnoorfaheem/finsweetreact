@@ -1,9 +1,17 @@
-import React from 'react'
+import Banner from "../Banner"
+import Features from "../Features"
+import Project from "../Project"
+import Work from "../Work"
+
+
 
 const Home = () => {
   return (
     <>
-      <h1>Home</h1>
+    <Banner></Banner>
+     <Work></Work>
+     <Project></Project>
+     <Features></Features>
     </>
   )
 }
