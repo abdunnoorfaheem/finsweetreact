@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import RootLayout from './components/layouts/RootLayout'
 import Home from './components/pages/Home'
-import ReadCase from './components/pages/ReadCase'
+
 
 function App() {
 
