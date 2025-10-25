@@ -6,6 +6,7 @@ import Pricing from './components/pages/Pricing'
 import Features from './components/pages/Features'
 import { About } from './components/pages/About'
 import Work from './components/mehedi/Work'
+import ReadCase from './components/pages/ReadCase'
 
 
 
@@ -19,6 +20,7 @@ function App() {
           <Route path='/feature' element={<Features/>} />
           <Route path='/about' element={<About/>} />
           <Route path='/work' element={<Work/>} />
+          <Route path='/read' element={<ReadCase/>} />
         </Route>
       </Routes>
     </>
