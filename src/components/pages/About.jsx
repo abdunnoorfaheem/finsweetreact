@@ -260,78 +260,71 @@ export const About = () => {
         {/* six part start */}
         <section className='bg-[#F4F6FC]'>
           <Container>
-           <section className='bg-[#F4F6FC]'>
-  <Container>
-    <div className="py-20 text-center">
-      <h4 className='text-[48px] text-[#282938] font-semibold font-poppins'>Meet our team</h4>
-      <div className="flex flex-wrap justify-center gap-6 pt-10">
-        {/* Card 1 */}
-        <div className="w-full sm:w-6/12 md:w-6/12 lg:w-2/12 bg-white py-10 px-10 flex flex-col items-center text-center rounded-lg shadow-md relative group">
-          <div className="relative w-[100px] h-[100px] mb-4">
-            <img src={group1} alt="John Smith" className="w-full h-full object-cover rounded-full" />
-            <div className="absolute inset-0 bg-gradient-to-b from-[#8a5cf642] to-[#5239FA] opacity-0 group-hover:opacity-100 rounded-full transition-opacity duration-300">
-              <div className="flex gap-2 text-white text-[15px] pt-18 pl-5">
-                <MdOutlineFacebook />
-                <AiFillInstagram />
-                <FaLinkedin />
-              </div>
-            </div>
-          </div>
-          <span className="text-[18px] font-semibold text-[#282938] pt-3">John Smith</span>
-          <h5 className="text-[14px] text-gray-500 pt-3">CEO</h5>
-        </div>
-
-        {/* Card 2 */}
-        <div className="w-full sm:w-6/12 md:w-6/12 lg:w-2/12 bg-white py-10 px-2 flex flex-col items-center text-center rounded-lg shadow-md relative group">
-          <div className="relative w-[100px] h-[100px] mb-4">
-            <img src={group2} alt="Simon Adams" className="w-full h-full object-cover rounded-full" />
-            <div className="absolute inset-0 bg-gradient-to-b from-[#8a5cf642] to-[#5239FA] opacity-0 group-hover:opacity-100 rounded-full transition-opacity duration-300">
-              <div className="flex gap-2 text-white text-[15px] pt-18 pl-5">
-                <MdOutlineFacebook />
-                <AiFillInstagram />
-                <FaLinkedin />
-              </div>
-            </div>
-          </div>
-          <span className="text-[18px] font-semibold text-[#282938] pt-3">Simon Adams</span>
-          <h5 className="text-[14px] text-gray-500 pt-3">CEO</h5>
-        </div>
-
-        {/* Card 3 */}
-        <div className="w-full sm:w-6/12 md:w-6/12 lg:w-2/12 bg-white py-10 px-2 flex flex-col items-center text-center rounded-lg shadow-md relative group">
-          <div className="relative w-[100px] h-[100px] mb-4">
-            <img src={group3} alt="Paul Jones" className="w-full h-full object-cover rounded-full" />
-            <div className="absolute inset-0 bg-gradient-to-b from-[#8a5cf642] to-[#5239FA] opacity-0 group-hover:opacity-100 rounded-full transition-opacity duration-300">
-              <div className="flex gap-2 text-white text-[15px] pt-18 pl-5">
-                <MdOutlineFacebook />
-                <AiFillInstagram />
-                <FaLinkedin />
-              </div>
-            </div>
-          </div>
-          <span className="text-[18px] font-semibold text-[#282938] pt-3">Paul Jones</span>
-          <h5 className="text-[14px] text-gray-500 pt-3">Design Lead</h5>
-        </div>
-
-        {/* Card 4 */}
-        <div className="w-full sm:w-6/12 md:w-6/12 lg:w-2/12 bg-white py-10 px-2 flex flex-col items-center text-center rounded-lg shadow-md relative group">
-          <div className="relative w-[100px] h-[100px] mb-4">
-            <img src={group4} alt="Sara Hardin" className="w-full h-full object-cover rounded-full" />
-            <div className="absolute inset-0 bg-gradient-to-b from-[#8a5cf642] to-[#5239FA] opacity-0 group-hover:opacity-100 rounded-full transition-opacity duration-300">
-              <div className="flex gap-2 text-white text-[15px] pt-18 pl-5">
-                <MdOutlineFacebook />
-                <AiFillInstagram />
-                <FaLinkedin />
-              </div>
-            </div>
-          </div>
-          <span className="text-[18px] font-semibold text-[#282938] pt-3">Sara Hardin</span>
-          <h5 className="text-[14px] text-gray-500 pt-3">Project Manager</h5>
-        </div>
-      </div>
-    </div>
-  </Container>
-</section>
+            <section className='bg-[#F4F6FC]'>
+              <Container>
+                <div className="py-20 text-center">
+                  <h4 className='text-[48px] text-[#282938] font-semibold font-poppins'>Meet our team</h4>
+                  <div className="flex flex-wrap justify-center gap-6 pt-10">
+                    <div className="w-full sm:w-6/12 md:w-6/12 lg:w-2/12 bg-white py-10 px-10 flex flex-col items-center text-center rounded-lg shadow-md relative group">
+                      <div className="relative w-[100px] h-[100px] mb-4">
+                        <img src={group1} alt="John Smith" className="w-full h-full object-cover rounded-full" />
+                        <div className="absolute inset-0 bg-gradient-to-b from-[#8a5cf642] to-[#5239FA] opacity-0 group-hover:opacity-100 rounded-full transition-opacity duration-300">
+                          <div className="flex gap-2 text-white text-[15px] pt-18 pl-5">
+                            <MdOutlineFacebook />
+                            <AiFillInstagram />
+                            <FaLinkedin />
+                          </div>
+                        </div>
+                      </div>
+                      <span className="text-[18px] font-semibold text-[#282938] pt-3">John Smith</span>
+                      <h5 className="text-[14px] text-gray-500 pt-3">CEO</h5>
+                    </div>
+                    <div className="w-full sm:w-6/12 md:w-6/12 lg:w-2/12 bg-white py-10 px-2 flex flex-col items-center text-center rounded-lg shadow-md relative group">
+                      <div className="relative w-[100px] h-[100px] mb-4">
+                        <img src={group2} alt="Simon Adams" className="w-full h-full object-cover rounded-full" />
+                        <div className="absolute inset-0 bg-gradient-to-b from-[#8a5cf642] to-[#5239FA] opacity-0 group-hover:opacity-100 rounded-full transition-opacity duration-300">
+                          <div className="flex gap-2 text-white text-[15px] pt-18 pl-5">
+                            <MdOutlineFacebook />
+                            <AiFillInstagram />
+                            <FaLinkedin />
+                          </div>
+                        </div>
+                      </div>
+                      <span className="text-[18px] font-semibold text-[#282938] pt-3">Simon Adams</span>
+                      <h5 className="text-[14px] text-gray-500 pt-3">CEO</h5>
+                    </div>
+                    <div className="w-full sm:w-6/12 md:w-6/12 lg:w-2/12 bg-white py-10 px-2 flex flex-col items-center text-center rounded-lg shadow-md relative group">
+                      <div className="relative w-[100px] h-[100px] mb-4">
+                        <img src={group3} alt="Paul Jones" className="w-full h-full object-cover rounded-full" />
+                        <div className="absolute inset-0 bg-gradient-to-b from-[#8a5cf642] to-[#5239FA] opacity-0 group-hover:opacity-100 rounded-full transition-opacity duration-300">
+                          <div className="flex gap-2 text-white text-[15px] pt-18 pl-5">
+                            <MdOutlineFacebook />
+                            <AiFillInstagram />
+                            <FaLinkedin />
+                          </div>
+                        </div>
+                      </div>
+                      <span className="text-[18px] font-semibold text-[#282938] pt-3">Paul Jones</span>
+                      <h5 className="text-[14px] text-gray-500 pt-3">Design Lead</h5>
+                    </div>
+                    <div className="w-full sm:w-6/12 md:w-6/12 lg:w-2/12 bg-white py-10 px-2 flex flex-col items-center text-center rounded-lg shadow-md relative group">
+                      <div className="relative w-[100px] h-[100px] mb-4">
+                        <img src={group4} alt="Sara Hardin" className="w-full h-full object-cover rounded-full" />
+                        <div className="absolute inset-0 bg-gradient-to-b from-[#8a5cf642] to-[#5239FA] opacity-0 group-hover:opacity-100 rounded-full transition-opacity duration-300">
+                          <div className="flex gap-2 text-white text-[15px] pt-18 pl-5">
+                            <MdOutlineFacebook />
+                            <AiFillInstagram />
+                            <FaLinkedin />
+                          </div>
+                        </div>
+                      </div>
+                      <span className="text-[18px] font-semibold text-[#282938] pt-3">Sara Hardin</span>
+                      <h5 className="text-[14px] text-gray-500 pt-3">Project Manager</h5>
+                    </div>
+                  </div>
+                </div>
+              </Container>
+            </section>
 
           </Container>
         </section>
