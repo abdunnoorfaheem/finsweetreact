@@ -14,8 +14,6 @@ function App() {
       <Routes>
         <Route path='/' element={<RootLayout />}>
           <Route index element={<Home />} />
-          <Route path='/PrivacyPolicy' element={<PrivacyPolicy />}></Route>
-          <Route path='/ContactUs' element={<ContactUs/>}></Route>
         </Route>
       </Routes>
     </>

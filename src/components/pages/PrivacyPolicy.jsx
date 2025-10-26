@@ -36,13 +36,13 @@ const PrivacyPolicy = () => {
           <p className="font-poppins text-base md:text-lg text-primary pb-6 mx-4 md:mx-auto max-w-3xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
           </p>
-          <p className="font-poppins text-base md:text-lg text-primary pb-3 mx-4 md:mx-auto max-w-3xl">
+          <p className="font-poppins text-base md:text-lg text-primary pb-3 mx-4 md:mx-auto max-w-3xl list-decimal relative before:content-['•'] before:text-black before:mr-2 before:text-xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
           </p>
-          <p className="font-poppins text-base md:text-lg text-primary pb-3 mx-4 md:mx-auto max-w-3xl">
+          <p className="font-poppins text-base md:text-lg text-primary pb-3 mx-4 md:mx-auto max-w-3xl list-decimal relative before:content-['•'] before:text-black before:mr-2 before:text-xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
           </p>
-          <p className="font-poppins text-base md:text-lg text-primary pb-3 mx-4 md:mx-auto max-w-3xl">
+          <p className="font-poppins text-base md:text-lg text-primary pb-5 mx-4 md:mx-auto max-w-3xl list-decimal relative before:content-['•'] before:text-black before:mr-2 before:text-xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
           </p>
           <p className="font-poppins text-base md:text-lg text-primary mx-4 md:mx-auto max-w-3xl">
