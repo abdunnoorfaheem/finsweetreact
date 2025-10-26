@@ -21,13 +21,13 @@ const BannerFe = () => {
           <div className="lg:flex lg:flex-wrap justify-between items-center gap-10">
             <div className="w-5/12 lg:w-6/12 sm:w-full">
           <div className="">
-            <Heading tagName ={"h2"} className ={"font-poppins font-semibold text-[52px] lg:text-[40px] md:text-[32px] sm:text-[24px]  text-white  sm:pr-0  sm:text-left pr-10"} text={"All the features you need"} />
-            <p className='font-poppins font-medium text-[16px] text-white py-6 sm:text-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <Button className={"py-4 px-10 border border-[rgba(244,246,252,0.2)] text-white hover:bg-quinary hover:text-primary transition ease-in-out duration-300"} text={"View Pricing"}/>           
+            <Heading tagName ={"h2"} className ={"font-poppins font-semibold lg:text-[52px]  text-[40px]  text-white  pr-0  sm:text-left lg:pr-[150px]"} text={"All the features you need"} />
+            <p className='font-poppins font-medium text-[16px] text-white py-6 sm:text-left lg:pr-[100px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <Button className={"lg:py-4 lg:px-10 px-6 py-3  border border-[rgba(244,246,252,0.2)] text-white hover:bg-quinary hover:text-primary transition ease-in-out duration-300"} text={"View Pricing"}/>           
           </div>
           </div>
-          <div className="w-5/12 lg:w-5/12 sm:w-full flex justify-center lg:justify-end">
-          <div className="sm:mt-[50px]">
+          <div className="lg:w-5/12 w-full flex justify-center  lg:justify-end">
+          <div className="py-8 lg:py-0">
            <Image imgSrc={Banner} />
            
           </div>
@@ -47,7 +47,7 @@ const BannerFe = () => {
          <div className="lg:flex lg:flex-wrap justify-between items-center gap-10">
           <div className="w-2/12 md:w-3/12 sm:w-full sm:text-left">
           <Heading tagName={"h3"}  className={"text-primary font-poppins text-[38px] md:text-[32px] sm:text-[24px] font-semibold"} text={"100.000+"}/>
-          <p className='text-primary font-poppins text-[16px] font-normal'>Figma Users</p>
+          <p className='text-primary font-poppins text-[16px] font-normal py-5 lg:py-0'>Figma Users</p>
          </div>
          <div className="w-9/12 md:w-8/12 sm:w-full">
          <div className="flex flex-wrap justify-between items-center sm:justify-start gap-6 sm:gap-8 sm:mt-[30px]">
