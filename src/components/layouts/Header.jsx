@@ -32,6 +32,8 @@ const Header = () => {
                 <li className="text-senary hover:text-white transition"><Link to="/blog">Blog</Link></li>
                 <li className="text-senary hover:text-white transition"><Link to="/work">Portfolio</Link></li>
                 <li className="text-senary hover:text-white transition"><Link to="/readblog">Read Blog</Link></li>
+                <li className="text-senary hover:text-white transition"><Link to="/policy">Policy</Link></li>
+                <li className="text-senary hover:text-white transition"><Link to="/contact">Contact</Link></li>
               </ul>
 
               {/* Desktop Button */}
@@ -43,7 +45,7 @@ const Header = () => {
               </div>
 
               {/* Mobile Menu Toggle */}
-              <Link to={"/contactus"}>
+              
               <button
                 className="md:hidden"
                 onClick={() => setToggle(!toggle)}
@@ -51,7 +53,7 @@ const Header = () => {
               >
                 {toggle ? <ImCross size={26} /> : <FaBars size={26} />}
               </button>
-              </Link>
+              
             </Flex>
           </Container>
         </nav>

@@ -9,6 +9,8 @@ import Work from './components/mehedi/Work'
 import ReadCase from './components/pages/ReadCase'
 import ReadBlog from './components/pages/ReadBlog'
 import Blog from './components/pages/Blog'
+import PrivacyPolicy from './components/pages/PrivacyPolicy'
+import ContactUs from './components/pages/ContactUs'
 
 
 
@@ -25,6 +27,8 @@ function App() {
           <Route path='/read' element={<ReadCase/>} />
           <Route path='/readblog' element={<ReadBlog/>} />
           <Route path='/blog' element={<Blog/>} />
+          <Route path='/policy' element={<PrivacyPolicy/>} />
+          <Route path='/contact' element={<ContactUs/>} />
         </Route>
       </Routes>
     </>
