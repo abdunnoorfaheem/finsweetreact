@@ -32,6 +32,7 @@ const Header = () => {
                 <li className="text-senary hover:text-white transition"><Link to="/blog">Blog</Link></li>
                 <li className="text-senary hover:text-white transition"><Link to="/work">Portfolio</Link></li>
                 <li className="text-senary hover:text-white transition"><Link to="/readblog">Read Blog</Link></li>
+                <li className="text-senary hover:text-white transition"><Link to="/contactus"> Contact us</Link></li>
               </ul>
 
               {/* Desktop Button */}
