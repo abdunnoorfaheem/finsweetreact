@@ -1,9 +1,8 @@
-import React from 'react'
-import Container from '../Container'
-import jenny from '../../assets/jenny.png'
-import "slick-carousel/slick/slick.css";
-import Slider from "react-slick";
 import { MdArrowBackIos, MdArrowForwardIos } from 'react-icons/md';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import jenny from '../../assets/jenny.png';
+import Container from '../Container';
 
 function SampleNextArrow(props) {
   const { onClick } = props;
@@ -21,7 +20,7 @@ function SamplePrevArrow(props) {
   const { onClick } = props;
   return (
     <div
-      className='w-[40px] h-[40px] bg-green-400 flex justify-center items-center rounded-full shadow-lg hover:bg-blue-500 duration-400 absolute bottom-0 right-[60px]'
+      className='w-[40px] h-[40px] bg-green-400 flex justify-center items-center rounded-full shadow-lg hover:bg-blue-500 duration-400 absolute bottom-0 right-[60px] z-10' 
       onClick={onClick}
     >
       <MdArrowBackIos />
