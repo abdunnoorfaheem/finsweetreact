@@ -162,71 +162,71 @@ const Header = () => {
         {toggle && (
           <div className="absolute top-full left-0 w-full bg-quaternary text-center py-6 md:hidden transition-all duration-700 delay-700">
             <ul className="space-y-4">
-                <li className="text-senary hover:text-white transition">
-                  <NavLink
-                    to="/"
-                    className={({ isActive }) =>
-                      isActive ? "text-white font-semibold" : "text-[#BBBBCB]"
-                    }
-                  >
-                    Home
-                  </NavLink>
-                </li>
+              <li className="text-senary hover:text-white transition">
+                <NavLink
+                  to="/"
+                  className={({ isActive }) =>
+                    isActive ? "text-white font-semibold" : "text-[#BBBBCB]"
+                  }
+                >
+                  Home
+                </NavLink>
+              </li>
 
-                <li className="text-senary hover:text-white transition">
-                  <NavLink
-                    to="/about"
-                    className={({ isActive }) =>
-                      isActive ? "text-white font-semibold" : "text-[#BBBBCB]"
-                    }
-                  >
-                    About us
-                  </NavLink>
-                </li>
+              <li className="text-senary hover:text-white transition">
+                <NavLink
+                  to="/about"
+                  className={({ isActive }) =>
+                    isActive ? "text-white font-semibold" : "text-[#BBBBCB]"
+                  }
+                >
+                  About us
+                </NavLink>
+              </li>
 
-                <li className="text-senary hover:text-white transition">
-                  <NavLink
-                    to="/features"
-                    className={({ isActive }) =>
-                      isActive ? "text-white font-semibold" : "text-[#BBBBCB]"
-                    }
-                  >
-                    Features
-                  </NavLink>
-                </li>
+              <li className="text-senary hover:text-white transition">
+                <NavLink
+                  to="/features"
+                  className={({ isActive }) =>
+                    isActive ? "text-white font-semibold" : "text-[#BBBBCB]"
+                  }
+                >
+                  Features
+                </NavLink>
+              </li>
 
-                <li className="text-senary hover:text-white transition">
-                  <NavLink
-                    to="/pricing"
-                    className={({ isActive }) =>
-                      isActive ? "text-white font-semibold" : "text-[#BBBBCB]"
-                    }
-                  >
-                    Pricing
-                  </NavLink>
-                </li>
+              <li className="text-senary hover:text-white transition">
+                <NavLink
+                  to="/pricing"
+                  className={({ isActive }) =>
+                    isActive ? "text-white font-semibold" : "text-[#BBBBCB]"
+                  }
+                >
+                  Pricing
+                </NavLink>
+              </li>
 
-                <li className="text-senary hover:text-white transition">
-                  <NavLink
-                    to="/read"
-                    className={({ isActive }) =>
-                      isActive ? "text-white font-semibold" : "text-[#BBBBCB]"
-                    }
-                  >
-                    Case
-                  </NavLink>
-                </li>
+              <li className="text-senary hover:text-white transition">
+                <NavLink
+                  to="/read"
+                  className={({ isActive }) =>
+                    isActive ? "text-white font-semibold" : "text-[#BBBBCB]"
+                  }
+                >
+                  Case
+                </NavLink>
+              </li>
 
-                <li className="text-senary hover:text-white transition">
-                  <NavLink
-                    to="/blog"
-                    className={({ isActive }) =>
-                      isActive ? "text-white font-semibold" : "text-[#BBBBCB]"
-                    }
-                  >
-                    Blog
-                  </NavLink>
-                </li>
+              <li className="text-senary hover:text-white transition">
+                <NavLink
+                  to="/blog"
+                  className={({ isActive }) =>
+                    isActive ? "text-white font-semibold" : "text-[#BBBBCB]"
+                  }
+                >
+                  Blog
+                </NavLink>
+              </li>
               <li>
                 <Button
                   className="py-3 px-10 border border-[rgba(244,246,252,0.2)] hover:bg-white hover:text-quaternary transition text-white"
