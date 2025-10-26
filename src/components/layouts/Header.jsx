@@ -36,10 +36,10 @@ const Header = () => {
 
               {/* Desktop Button */}
               <div className="hidden md:flex">
-                <Link to={"/contactus"}><Button
+                <Button
                   className="py-3 px-10 border border-[rgba(244,246,252,0.2)] hover:bg-white hover:text-quaternary transition"
                   text="Contact us"
-                /></Link>
+                />
               </div>
 
               {/* Mobile Menu Toggle */}
