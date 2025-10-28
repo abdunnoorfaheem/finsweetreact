@@ -1,15 +1,14 @@
 import React from "react";
 import Container from "../Container";
-import { FaPlus } from "react-icons/fa";
-import { CiPlay1 } from "react-icons/ci";
+import { FaPlay, FaPlus } from "react-icons/fa";
 
 const Pricing = () => {
   return (
     <>
       {/* Pricing Section */}
-      <section className="py-16 px-6 md:px-12 lg:px-20 font-poppins">
+      <section className="pt-32 px-6 md:px-12 lg:px-20 font-poppins">
         <Container>
-          <div className="text-center mb-12">
+          <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold">
               Our Pricing Plans
             </h2>
@@ -22,134 +21,137 @@ const Pricing = () => {
           </div>
 
           {/* Pricing Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-8">
             {/* Card 1 */}
-            <div className="bg-gray-50 rounded-2xl shadow-sm hover:shadow-lg transition p-8 flex flex-col justify-between">
+            <div className="group bg-gray-50 hover:bg-quaternary hover:text-white rounded-2xl shadow-sm hover:shadow-lg transition py-16 px-[31px] lg:px-[45px] flex flex-col justify-between">
               <div>
                 <div className="flex gap-2 items-center">
-                  <h3 className="text-2xl font-bold text-primary">$299</h3>
-                  <span className="text-tertiary text-sm font-semibold">
+                  <h3 className="text-2xl lg:text-[34px] font-semibold">
+                    $299
+                  </h3>
+                  <span className="text-tertiary group-hover:text-quinary text-sm font-semibold">
                     Per Design
                   </span>
                 </div>
-                <h4 className="mt-4 text-lg font-semibold">Landing Page</h4>
-                <p className="text-quaternary mt-2 text-sm">
-                  When you’re ready to go beyond prototyping in Figma.
+                <h4 className="mt-5 text-lg font-semibold">Landing Page</h4>
+                <p className="mt-2 text-sm">
+                  When you’re ready to go beyond <br /> prototyping in Figma.
                 </p>
 
-                <ul className="mt-6 space-y-2 text-left text-sm">
-                  <li className="flex gap-1 items-center">
-                    <CiPlay1 className="text-[#97DAAD]" /> All limited links
+                <ul className="my-12 md:my-20 space-y-2 text-left text-sm">
+                  <li className="flex gap-3 items-center">
+                    <FaPlay className="text-[#97DAAD]" /> All limited links
                   </li>
-                  <li className="flex gap-1 items-center">
+                  <li className="flex gap-3 items-center">
                     {" "}
-                    <CiPlay1 className="text-[#97DAAD]" /> Own analytics
-                    platform
+                    <FaPlay className="text-[#97DAAD]" /> Own analytics platform
                   </li>
-                  <li className="flex gap-1 items-center">
+                  <li className="flex gap-3 items-center">
                     {" "}
-                    <CiPlay1 className="text-[#97DAAD]" /> Chat support
+                    <FaPlay className="text-[#97DAAD]" /> Chat support
                   </li>
-                  <li className="flex gap-1 items-center">
+                  <li className="flex gap-3 items-center">
                     {" "}
-                    <CiPlay1 className="text-[#97DAAD]" /> Optimize hashtags
+                    <FaPlay className="text-[#97DAAD]" /> Optimize hashtags
                   </li>
-                  <li className="flex gap-1 items-center">
+                  <li className="flex gap-3 items-center">
                     {" "}
-                    <CiPlay1 className="text-[#97DAAD]" /> Unlimited users
+                    <FaPlay className="text-[#97DAAD]" /> Unlimited users
                   </li>
                 </ul>
               </div>
-              <button className="mt-8 bg-primary text-white font-medium py-2 rounded-full hover:bg-gray-950 cursor-pointer transition font-manrope">
+              <button className="bg-primary text-white font-medium py-2 lg:py-4 px-[34px] lg:px-[42px] rounded-[41px] cursor-pointer transition font-manrope group-hover:bg-quinary group-hover:text-primary hover:bg-yellow-400 mx-auto text-sm lg:text-[16px]">
                 Get started
               </button>
             </div>
 
             {/* Card 2 */}
-            <div className="bg-quaternary text-white rounded-2xl shadow-lg p-8 flex flex-col justify-between">
+            <div className="group hover:bg-quaternary hover:text-white bg-gray-50 rounded-2xl shadow-lg flex flex-col justify-between py-16 px-[31px] lg:px-[45px]">
               <div>
                 <div className="flex gap-2 items-center">
-                  <h3 className="text-2xl font-bold text-white">$399</h3>
-                  <span className="text-quinary text-sm font-medium">
+                  <h3 className="text-2xl lg:text-[34px] font-semibold">
+                    $399
+                  </h3>
+                  <span className="text-tertiary text-[12px] font-medium group-hover:text-quinary">
                     Multi Design
                   </span>
                 </div>
-                <h4 className="mt-4 text-lg font-semibold">Website Page</h4>
-                <p className="text-indigo-200 mt-2 text-sm">
-                  When you’re ready to go beyond prototyping in Figma, Webflow’s
-                  ready to help.
+                <h4 className="mt-5 text-lg font-semibold">Website Page</h4>
+                <p className="mt-2 text-sm">
+                  When you’re ready to go beyond <br /> prototyping in Figma,
+                  Webflow’s <br /> ready to help.
                 </p>
 
-                <ul className="mt-6 space-y-2 text-left text-sm">
-                  <li className="flex gap-1 items-center">
-                    <CiPlay1 className="text-[#97DAAD]" /> All limited links
+                <ul className="my-12 md:my-20 space-y-2 text-left text-sm">
+                  <li className="flex gap-3 items-center">
+                    <FaPlay className="text-[#97DAAD]" /> All limited links
                   </li>
-                  <li className="flex gap-1 items-center">
+                  <li className="flex gap-3 items-center">
                     {" "}
-                    <CiPlay1 className="text-[#97DAAD]" /> Own analytics
-                    platform
+                    <FaPlay className="text-[#97DAAD]" /> Own analytics platform
                   </li>
-                  <li className="flex gap-1 items-center">
+                  <li className="flex gap-3 items-center">
                     {" "}
-                    <CiPlay1 className="text-[#97DAAD]" /> Chat support
+                    <FaPlay className="text-[#97DAAD]" /> Chat support
                   </li>
-                  <li className="flex gap-1 items-center">
+                  <li className="flex gap-3 items-center">
                     {" "}
-                    <CiPlay1 className="text-[#97DAAD]" /> Optimize hashtags
+                    <FaPlay className="text-[#97DAAD]" /> Optimize hashtags
                   </li>
-                  <li className="flex gap-1 items-center">
+                  <li className="flex gap-3 items-center">
                     {" "}
-                    <CiPlay1 className="text-[#97DAAD]" /> Unlimited users
+                    <FaPlay className="text-[#97DAAD]" /> Unlimited users
                   </li>
                 </ul>
               </div>
-              <button className="mt-8 bg-quinary text-gray-900 font-semibold py-2 rounded-full hover:bg-yellow-300 transition cursor-pointer font-manrope">
+              <button className="bg-primary text-white font-medium py-2 lg:py-4 px-[34px] lg:px-[42px] rounded-[41px] hover:bg-yellow-400 cursor-pointer transition font-manrope group-hover:bg-quinary group-hover:text-primary mx-auto text-sm lg:text-[16px]">
                 Get started
               </button>
             </div>
 
             {/* Card 3 */}
-            <div className="bg-gray-50 border border-gray-100 rounded-2xl shadow-sm hover:shadow-lg transition p-8 flex flex-col justify-between">
+            <div className="group bg-gray-50 hover:bg-quaternary hover:text-white rounded-2xl shadow-sm hover:shadow-lg transition flex flex-col justify-between py-16 px-[31px] lg:px-[45px]">
               <div>
                 <div className="flex gap-2 items-center">
-                  <h3 className="text-2xl font-bold text-primary">$499 +</h3>
-                  <span className="text-tertiary text-sm font-semibold">
+                  <h3 className="text-2xl lg:text-[34px] font-semibold">
+                    $299
+                  </h3>
+                  <span className="text-tertiary hover:text-quinary text-sm font-semibold group-hover:text-quinary">
                     Per Design
                   </span>
                 </div>
-                <h4 className="mt-4 text-lg font-semibold">Complex Project</h4>
-                <p className="text-gray-500 mt-2 text-sm">
-                  When you’re ready to go beyond prototyping in Figma.
+                <h4 className="mt-5 text-lg font-semibold">Landing Page</h4>
+                <p className="mt-2 text-sm">
+                  When you’re ready to go beyond <br /> prototyping in Figma.
                 </p>
 
-                <ul className="mt-6 space-y-2 text-left text-sm">
-                  <li className="flex gap-1 items-center">
-                    <CiPlay1 className="text-[#97DAAD]" /> All limited links
+                <ul className="my-12 md:my-20 space-y-2 text-left text-sm">
+                  <li className="flex gap-3 items-center">
+                    <FaPlay className="text-[#97DAAD]" /> All limited links
                   </li>
-                  <li className="flex gap-1 items-center">
+                  <li className="flex gap-3 items-center">
                     {" "}
-                    <CiPlay1 className="text-[#97DAAD]" /> Own analytics
-                    platform
+                    <FaPlay className="text-[#97DAAD]" /> Own analytics platform
                   </li>
-                  <li className="flex gap-1 items-center">
+                  <li className="flex gap-3 items-center">
                     {" "}
-                    <CiPlay1 className="text-[#97DAAD]" /> Chat support
+                    <FaPlay className="text-[#97DAAD]" /> Chat support
                   </li>
-                  <li className="flex gap-1 items-center">
+                  <li className="flex gap-3 items-center">
                     {" "}
-                    <CiPlay1 className="text-[#97DAAD]" /> Optimize hashtags
+                    <FaPlay className="text-[#97DAAD]" /> Optimize hashtags
                   </li>
-                  <li className="flex gap-1 items-center">
+                  <li className="flex gap-3 items-center">
                     {" "}
-                    <CiPlay1 className="text-[#97DAAD]" /> Unlimited users
+                    <FaPlay className="text-[#97DAAD]" /> Unlimited users
                   </li>
-                  <li className="flex gap-1 items-center">
+                  <li className="flex gap-3 items-center">
                     {" "}
-                    <CiPlay1 className="text-[#97DAAD]" /> Assist and Help
+                    <FaPlay className="text-[#97DAAD]" /> Assist and Help
                   </li>
                 </ul>
               </div>
-              <button className="mt-8 bg-primary text-white font-medium py-2 rounded-full hover:bg-gray-950 cursor-pointer transition font-manrope">
+              <button className="bg-primary  text-white font-medium py-2 lg:py-4 px-[34px] lg:px-[42px] rounded-[41px] cursor-pointer transition font-manrope group-hover:bg-quinary group-hover:text-primary hover:bg-yellow-400 mx-auto text-sm lg:text-[16px] ">
                 Get started
               </button>
             </div>
@@ -158,10 +160,10 @@ const Pricing = () => {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-16 px-6 md:px-12 lg:px-20 font-poppins">
+      <section className="py-32 px-6 md:px-12 lg:px-20 font-poppins">
         <Container>
           <div className="md:flex gap-6">
-            <div className="w-4/12 text-center md:text-left">
+            <div className="md:w-4/12 text-center md:text-left">
               <h3 className="text-2xl md:text-3xl font-bold mb-4">
                 Frequently <br /> asked questions
               </h3>
@@ -170,12 +172,9 @@ const Pricing = () => {
               </a>
             </div>
 
-            <div className="divide-y divide-[#C2BBFF] w-8/12 mt-3 md:mt-0">
+            <div className="divide-y divide-[#C2BBFF] md:w-8/12 mt-10 md:mt-0">
               {/* FAQ Item */}
-              <details
-                open
-                className="group py-4 cursor-pointer transition hover:bg-gray-100 px-4 rounded-lg"
-              >
+              <details className="group py-4 cursor-pointer transition hover:bg-gray-100 px-4 rounded-lg">
                 <summary className="flex items-center justify-between font-semibold text-gray-900">
                   <div className="flex items-center gap-2">
                     <span className="text-tertiary font-bold">01</span>
