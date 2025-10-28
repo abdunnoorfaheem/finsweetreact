@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Container from '../Container'
 import about from "../../assets/about.png";
 import about2 from "../../assets/about2.png"
@@ -21,32 +21,38 @@ import { AiFillInstagram } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa6";
 
 
+
 export const About = () => {
+  let [Msnaur,SetMansur]=useState(true)
   return (
     <div >
       <>
+      {/* <div className=" content-center pt-5 m-auto relative">
+        <button onClick={() => SetMansur(!Msnaur)} className='py-2 px-4 bg-[#7676] text-[#fff] rounded-2xl text-center absolute top-[-60px] z-100 left-[70%]'>submit</button>
+      </div> */}
+      
         {/* one part start */}
-        <section className="py-20">
+        {/* one part end */}
+
+        <section className="lg:py-20 py-4">
           <Container>
             <div className="flex flex-col lg:flex-row justify-between items-center gap-10 lg:gap-0">
               <div className="w-full lg:w-5/12 text-center lg:text-left">
                 <span className="text-[18px] text-[#282938] font-poppins">About us</span>
-                <h4 className="text-[36px] lg:text-[54px] text-[#282938] font-semibold font-poppins mt-2">
+                <h4 className="text-[20px] lg:text-[54px] text-[#282938] font-semibold font-poppins mt-2">
                   Our designs solve problems
                 </h4>
-                <p className="text-[16px] text-[#282938] font-poppins pt-4">
+                <p className="lg:text-[16px] text-[12px] text-[#282938] font-poppins lg:pt-4 pt-2 lg:px-0 px-3">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                 </p>
               </div>
-              <div className="w-full lg:w-6/12">
+              <div className="w-full lg:w-6/12 ">
                 <img src={about} alt="About" className="w-full h-auto " />
               </div>
             </div>
           </Container>
         </section>
-        {/* one part end */}
-
 
         {/* two part start */}
         <section className="">
@@ -54,25 +60,25 @@ export const About = () => {
             <div className="flex flex-col lg:flex-row justify-between py-7 px-4 gap-8 lg:gap-0 bg-[#F4F5F5]">
               <div className="w-full lg:w-5/12 pl-0 lg:pl-6 text-center lg:text-left">
                 <h4 className="text-[16px] text-[#282938] font-poppins">Who we are</h4>
-                <h5 className="text-[28px] lg:text-[38px] text-[#282938] font-poppins font-semibold mt-1">
+                <h5 className="text-[20px] lg:text-[38px] text-[#282938] font-poppins font-semibold mt-1">
                   Goal focussed
                 </h5>
-                <p className="text-[16px] text-[#282938] font-poppins mt-2">
+                <p className="lg:text-[16px] text-[12px] lg:px-0 px-4 text-[#282938] font-poppins mt-2">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
               </div>
               <div className="w-full lg:w-5/12 pt-2 lg:pt-6 text-center lg:text-left">
-                <h5 className="text-[28px] lg:text-[38px] text-[#282938] font-poppins font-semibold">
+                <h5 className="text-[20px] lg:text-[38px] text-[#282938] font-poppins font-semibold">
                   Continuous improvement
                 </h5>
-                <p className="text-[16px] text-[#282938] font-poppins mt-2">
+                <p className="lg:text-[16px] text-[12px] lg:px-0 px-4 text-[#282938] font-poppins mt-2">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
               </div>
             </div>
-            <div className="w-full pb-10">
+            <div className="lg:w-full pb-10">
               <img src={about2} alt="About Section Image" className="w-full h-auto " />
             </div>
           </Container>
@@ -83,66 +89,66 @@ export const About = () => {
         {/* three part start */}
         <section className="">
           <Container>
-            <div className="py-15 pb-20 w-full">
+            <div className="lg:py-15 pb-20 w-full">
               <div className="lg:w-full">
-                <h2 className="text-center lg:text-[48px] text-[#282938] font-semibold font-poppins">
+                <h2 className="text-center text-[20px] lg:text-[48px] text-[#282938] font-semibold font-poppins">
                   The process we follow
                 </h2>
               </div>
               <div className="flex flex-col md:flex-row pt-7 gap-10 md:gap-7">
                 <div className="w-full md:w-3/12 text-center md:text-left">
                   <div className="flex items-center justify-center md:justify-start flex-wrap">
-                    <GoDotFill className="text-[30px] text-[#2405F2]" />
+                    <GoDotFill className="lg:text-[30px] text-[20] text-[#2405F2]" />
                     {[...Array(23)].map((_, i) => (
-                      <GoDotFill key={i} className="text-[12px]" />
+                      <GoDotFill key={i} className="lg:text-[12px] text-[8px]" />
                     ))}
                   </div>
-                  <h4 className="text-[24px] text-[#282938] pt-2 font-poppins">
+                  <h4 className="lg:text-[24px] text-[20px] text-[#282938] font-poppins pt-2">
                     Planning
                   </h4>
-                  <p className="text-[16px] text-[#282938] font-poppins pt-4">
+                  <p className="lg:text-[16px] text-[12px] px-3 lg:px-0 lg:py-4  text-[#282938] font-poppins pt-4">
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
                   </p>
                 </div>
                 <div className="w-full md:w-3/12 text-center md:text-left">
                   <div className="flex items-center justify-center md:justify-start flex-wrap">
-                    <GoDotFill className="text-[30px] text-[#2405F2]" />
+                    <GoDotFill className="lg:text-[30px] text-[20] text-[#2405F2]" />
                     {[...Array(23)].map((_, i) => (
-                      <GoDotFill key={i} className="text-[12px]" />
+                      <GoDotFill key={i} className="lg:text-[12px] text-[8px]" />
                     ))}
                   </div>
-                  <h4 className="text-[24px] text-[#282938] pt-2 font-poppins">
+                  <h4 className="lg:text-[24px] text-[20px] pt-2 lg:pt-2 text-[#282938]  font-poppins">
                     Conception
                   </h4>
-                  <p className="text-[16px] text-[#282938] font-poppins pt-4">
+                  <p className="lg:text-[16px] text-[12px] px-3 lg:px-0 lg:py-4  text-[#282938] font-poppins pt-4">
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
                   </p>
                 </div>
                 <div className="w-full md:w-3/12 text-center md:text-left">
                   <div className="flex items-center justify-center md:justify-start flex-wrap">
-                    <GoDotFill className="text-[30px] text-[#2405F2]" />
+                    <GoDotFill className="lg:text-[30px] text-[20] text-[#2405F2]" />
                     {[...Array(23)].map((_, i) => (
-                      <GoDotFill key={i} className="text-[12px]" />
+                      <GoDotFill key={i} className="lg:text-[12px] text-[8px]" />
                     ))}
                   </div>
-                  <h4 className="text-[24px] text-[#282938] pt-2 font-poppins">
+                  <h4 className="lg:text-[24px] text-[20px] pt-2 lg:pt-2 text-[#282938] font-poppins">
                     Design
                   </h4>
-                  <p className="text-[16px] text-[#282938] font-poppins pt-4">
+                  <p className="lg:text-[16px] text-[12px] px-3 lg:px-0 lg:py-4  text-[#282938] font-poppins pt-4">
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
                   </p>
                 </div>
                 <div className="w-full md:w-3/12 text-center md:text-left">
                   <div className="flex items-center justify-center md:justify-start flex-wrap">
-                    <GoDotFill className="text-[30px] text-[#2405F2]" />
+                    <GoDotFill className="lg:text-[30px] text-[20] text-[#2405F2] text-[#2405F2]" />
                     {[...Array(23)].map((_, i) => (
-                      <GoDotFill key={i} className="text-[12px]" />
+                      <GoDotFill key={i} className="lg:text-[12px] text-[8px]" />
                     ))}
                   </div>
-                  <h4 className="text-[24px] text-[#282938] pt-2 font-poppins">
+                  <h4 className="lg:text-[24px] text-[20px] pt-2 lg:pt-2 text-[#282938] pt-2 font-poppins">
                     Development
                   </h4>
-                  <p className="text-[16px] text-[#282938] font-poppins pt-4">
+                  <p className="lg:text-[16px] text-[12px] px-3 lg:px-0 lg:py-4  text-[#282938] font-poppins pt-4">
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
                   </p>
                 </div>
@@ -160,10 +166,10 @@ export const About = () => {
             <div className="flex flex-col md:flex-row justify-between items-center gap-10 md:gap-0">
               <div className="w-full md:w-6/12 text-center md:text-left">
                 <h5 className='text-[16px] text-[#282938] font-poppins pb-3'>Our Mission</h5>
-                <span className='text-[28px] md:text-[38px] text-[#282938] font-semibold font-poppins'>
+                <span className='text-[20px] md:text-[38px] text-[#282938] font-semibold font-poppins'>
                   Inspire, Innovate, Share
                 </span>
-                <p className='text-[16px] text-[#282938] font-poppins pt-3 leading-relaxed'>
+                <p className='lg:text-[16px] text-[12px] lg:px-0 px-4 text-[#282938] font-poppins pt-3 leading-relaxed'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br className='hidden md:block' />
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br className='hidden md:block' />
                   veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <br className='hidden md:block' />
@@ -172,16 +178,16 @@ export const About = () => {
               </div>
 
               <div className="w-full md:w-5/12">
-                <img src={about3} alt="" className='w-full rounded-md' />
+                <img src={about3} alt="" className='w-full rounded-md lg:hover:scale-105 cursor-zoom-in  duration-300 ease-in-out' />
               </div>
             </div>
             <div className="flex flex-col md:flex-row-reverse justify-between items-center gap-10 md:gap-0 pt-10 md:pt-20">
               <div className="w-full md:w-6/12 text-center md:text-left">
                 <h5 className='text-[16px] text-[#282938] font-poppins pb-3'>Our Vision</h5>
-                <span className='text-[28px] md:text-[38px] text-[#282938] font-semibold font-poppins'>
+                <span className='text-[20px] md:text-[38px] text-[#282938] font-semibold font-poppins'>
                   Laser focus
                 </span>
-                <p className='text-[16px] text-[#282938] font-poppins pt-3 leading-relaxed'>
+                <p className='lg:text-[16px] text-[12px] lg:px-0 px-4 text-[#282938] font-poppins pt-3 leading-relaxed'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br className='hidden md:block' />
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br className='hidden md:block' />
                   veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <br className='hidden md:block' />
@@ -190,7 +196,7 @@ export const About = () => {
               </div>
 
               <div className="w-full md:w-5/12">
-                <img src={about4} alt="" className='w-full rounded-md' />
+                <img src={about4} alt="" className='w-full rounded-md lg:hover:scale-105 cursor-zoom-in duration-300 ease-in-out' />
               </div>
             </div>
           </Container>
@@ -203,42 +209,42 @@ export const About = () => {
           <Container>
             <div>
               <div className="w-full">
-                <h6 className='text-center text-[32px] md:text-[48px] text-[#282938] pt-10 font-semibold font-poppins'>
+                <h6 className='text-center text-[20px] md:text-[48px] text-[#282938] lg:pt-14 pt-3 font-semibold font-poppins'>
                   The benefits of working <br className='hidden md:block' /> with us
                 </h6>
               </div>
 
-              <div className="py-16 flex flex-col md:flex-row gap-6">
-                <div className="w-full md:w-4/12 bg-[#F4F6FC] shadow-lg py-10 px-7">
+              <div className="lg:py-16 py-3 flex flex-col md:flex-row gap-6">
+                <div className="w-full md:w-4/12  bg-[#F4F6FC] shadow-lg py-10 px-7   lg:hover:scale-105 duration-300 ease-in-out">
                   <div className="mb-4">
-                    <img src={about5} alt="" className='w-[60px] md:w-auto' />
+                    <img src={about5} alt="" className='lg:w-[60px] md:w-auto' />
                   </div>
-                  <span className='text-[20px] md:text-[24px] text-[#282938] font-medium font-poppins pt-4 block'>
+                  <span className='text-[15px] md:text-[24px] text-[#282938] font-medium font-poppins lg:pt-4 block'>
                     Customize with ease
                   </span>
-                  <p className='text-[16px] text-[#282938] font-poppins pt-4 leading-relaxed'>
+                  <p className='lg:text-[16px] text-[10px] pt-2  lg:pt-4 text-[#282938] font-poppins leading-relaxed'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.
                   </p>
                 </div>
-                <div className="w-full md:w-4/12 bg-[#F4F6FC] shadow-lg py-10 px-7">
+                <div className="w-full md:w-4/12 bg-[#F4F6FC] shadow-lg py-10 px-7  lg:hover:scale-105 duration-300 ease-in-out">
                   <div className="mb-4">
-                    <img src={about6} alt="" className='w-[60px] md:w-auto' />
+                    <img src={about6} alt="" className='lg:w-[60px] md:w-auto' />
                   </div>
-                  <span className='text-[20px] md:text-[24px] text-[#282938] font-medium font-poppins pt-4 block'>
+                  <span className='text-[15px] md:text-[24px] lg:pt-4 text-[#282938] font-medium font-poppins  block'>
                     Perfectly Responsive
                   </span>
-                  <p className='text-[16px] text-[#282938] font-poppins pt-4 leading-relaxed'>
+                  <p className='lg:text-[16px] text-[10px]  lg:pt-4 pt-2 text-[#282938] font-poppins leading-relaxed'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.
                   </p>
                 </div>
-                <div className="w-full md:w-4/12 bg-[#F4F6FC] shadow-lg py-10 px-7">
+                <div className="w-full md:w-4/12 bg-[#F4F6FC] shadow-lg py-10 px-7  lg:hover:scale-105 duration-300 ease-in-out">
                   <div className="mb-4">
-                    <img src={about7} alt="" className='w-[60px] md:w-auto' />
+                    <img src={about7} alt="" className='lg:w-[60px] md:w-auto' />
                   </div>
-                  <span className='text-[20px] md:text-[24px] text-[#282938] font-medium font-poppins pt-4 block'>
+                  <span className='text-[15px] md:text-[24px] lg:pt-4 text-[#282938] font-medium font-poppins  block'>
                     Friendly Support
                   </span>
-                  <p className='text-[16px] text-[#282938] font-poppins pt-4 leading-relaxed'>
+                  <p className='lg:text-[16px] text-[10px]  lg:pt-4 pt-2 text-[#282938] font-poppins leading-relaxed'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.
                   </p>
                 </div>
@@ -264,7 +270,7 @@ export const About = () => {
             <section className='bg-[#F4F6FC]'>
               <Container>
                 <div className="py-20 text-center">
-                  <h4 className='text-[48px] text-[#282938] font-semibold font-poppins'>Meet our team</h4>
+                  <h4 className='lg:text-[48px] text-[20px] text-[#282938] font-semibold font-poppins'>Meet our team</h4>
                   <div className="flex flex-wrap justify-center gap-6 pt-10">
                     <div className="w-full sm:w-6/12 md:w-6/12 lg:w-2/12 bg-white py-10 px-10 flex flex-col items-center text-center rounded-lg shadow-md relative group">
                       <div className="relative w-[100px] h-[100px] mb-4">

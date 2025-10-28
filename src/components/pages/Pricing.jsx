@@ -23,10 +23,12 @@ const Pricing = () => {
           {/* Pricing Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-8">
             {/* Card 1 */}
-            <div className="group bg-gray-50 hover:bg-quaternary hover:text-white rounded-2xl shadow-sm hover:shadow-lg transition py-16 px-8 lg:px-12 flex flex-col justify-between">
+            <div className="group bg-gray-50 hover:bg-quaternary hover:text-white rounded-2xl shadow-sm hover:shadow-lg transition py-16 px-[31px] lg:px-[45px] flex flex-col justify-between">
               <div>
                 <div className="flex gap-2 items-center">
-                  <h3 className="text-[38px] font-semibold">$299</h3>
+                  <h3 className="text-2xl lg:text-[34px] font-semibold">
+                    $299
+                  </h3>
                   <span className="text-tertiary group-hover:text-quinary text-sm font-semibold">
                     Per Design
                   </span>
@@ -58,17 +60,19 @@ const Pricing = () => {
                   </li>
                 </ul>
               </div>
-              <button className="bg-primary text-white font-medium py-2 lg:py-4 px-12 lg:px-20 rounded-[41px] cursor-pointer transition font-manrope group-hover:bg-quinary group-hover:text-primary hover:bg-yellow-400 mx-auto">
+              <button className="bg-primary text-white font-medium py-2 lg:py-4 px-[34px] lg:px-[42px] rounded-[41px] cursor-pointer transition font-manrope group-hover:bg-quinary group-hover:text-primary hover:bg-yellow-400 mx-auto text-sm lg:text-[16px]">
                 Get started
               </button>
             </div>
 
             {/* Card 2 */}
-            <div className="group hover:bg-quaternary hover:text-white bg-gray-50 rounded-2xl shadow-lg flex flex-col justify-between py-16 px-8 lg:px-12">
+            <div className="group hover:bg-quaternary hover:text-white bg-gray-50 rounded-2xl shadow-lg flex flex-col justify-between py-16 px-[31px] lg:px-[45px]">
               <div>
                 <div className="flex gap-2 items-center">
-                  <h3 className="text-[38px] font-semibold">$399</h3>
-                  <span className="text-tertiary text-sm font-medium group-hover:text-quinary">
+                  <h3 className="text-2xl lg:text-[34px] font-semibold">
+                    $399
+                  </h3>
+                  <span className="text-tertiary text-[12px] font-medium group-hover:text-quinary">
                     Multi Design
                   </span>
                 </div>
@@ -100,16 +104,18 @@ const Pricing = () => {
                   </li>
                 </ul>
               </div>
-              <button className="bg-primary text-white font-medium py-2 lg:py-4 px-12 lg:px-20 rounded-[41px] hover:bg-yellow-400 cursor-pointer transition font-manrope group-hover:bg-quinary group-hover:text-primary mx-auto">
+              <button className="bg-primary text-white font-medium py-2 lg:py-4 px-[34px] lg:px-[42px] rounded-[41px] hover:bg-yellow-400 cursor-pointer transition font-manrope group-hover:bg-quinary group-hover:text-primary mx-auto text-sm lg:text-[16px]">
                 Get started
               </button>
             </div>
 
             {/* Card 3 */}
-            <div className="group bg-gray-50 hover:bg-quaternary hover:text-white rounded-2xl shadow-sm hover:shadow-lg transition flex flex-col justify-between py-16 px-8 lg:px-12">
+            <div className="group bg-gray-50 hover:bg-quaternary hover:text-white rounded-2xl shadow-sm hover:shadow-lg transition flex flex-col justify-between py-16 px-[31px] lg:px-[45px]">
               <div>
                 <div className="flex gap-2 items-center">
-                  <h3 className="text-[38px] font-semibold">$299</h3>
+                  <h3 className="text-2xl lg:text-[34px] font-semibold">
+                    $299
+                  </h3>
                   <span className="text-tertiary hover:text-quinary text-sm font-semibold group-hover:text-quinary">
                     Per Design
                   </span>
@@ -145,7 +151,7 @@ const Pricing = () => {
                   </li>
                 </ul>
               </div>
-              <button className="bg-primary  text-white font-medium py-2 lg:py-4 px-12 lg:px-20 rounded-[41px] cursor-pointer transition font-manrope group-hover:bg-quinary group-hover:text-primary hover:bg-yellow-400 mx-auto">
+              <button className="bg-primary  text-white font-medium py-2 lg:py-4 px-[34px] lg:px-[42px] rounded-[41px] cursor-pointer transition font-manrope group-hover:bg-quinary group-hover:text-primary hover:bg-yellow-400 mx-auto text-sm lg:text-[16px] ">
                 Get started
               </button>
             </div>
