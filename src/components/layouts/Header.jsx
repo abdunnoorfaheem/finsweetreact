@@ -17,14 +17,14 @@ const Header = () => {
       <header className="relative z-50">
         <nav className="bg-quaternary text-white py-4 font-poppins">
           <Container>
-            <Flex className="justify-between items-center px-5 md:px-0">
+            <div className="flex justify-between items-center px-5 md:px-0">
               {/* Logo */}
               <div>
                 <Image imgSrc={Logo} />
               </div>
 
               {/* Desktop Menu */}
-              <ul className="hidden md:flex gap-x-8">
+              <ul className="hidden md:flex items-center gap-x-4 text-[14px]">
                 <li className="text-senary hover:text-white transition">
                   <NavLink
                     to="/"
@@ -154,7 +154,7 @@ const Header = () => {
                 {toggle ? <ImCross size={26} /> : <FaBars size={26} />}
               </button>
 
-            </Flex>
+            </div>
           </Container>
         </nav>
 
